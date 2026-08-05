@@ -1,0 +1,7 @@
+numpy
+scipy
+pyqt5
+matplotlib
+pyqtgraph
+pytest
+pyyaml

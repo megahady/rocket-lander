@@ -1,0 +1,11 @@
+gravity: 9.81
+
+time_step: 0.005
+
+rocket:
+  mass: 25000
+  max_thrust: 845000
+  max_gimbal_angle: 10
+
+environment:
+  wind: 0
