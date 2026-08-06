@@ -3,9 +3,18 @@ gravity: 9.81
 time_step: 0.005
 
 rocket:
-  mass: 25000
+  dry_mass: 8000
+  fuel_mass: 16000
   max_thrust: 845000
   max_gimbal_angle: 10
+  max_fin_angle: 20
+  moment_of_inertia: 2500000
+  drag_coefficient: 0.35
+  reference_area: 15.0
+  air_density: 1.225
+  gimbal_arm: 5.0
+  fin_torque_gain: 50000
+  isp: 300.0
 
 environment:
   wind: 0
